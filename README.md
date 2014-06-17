@@ -1,0 +1,1 @@
+#VFSwitch is the swift-language version of [ITSwitch](https://github.com/iluuu1994/ITSwitch)
