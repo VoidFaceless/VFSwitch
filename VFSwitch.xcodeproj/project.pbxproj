@@ -14,6 +14,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8879675319504174009DF9FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8879674E19504173009DF9FF /* VFSwitchDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8879672C19504172009DF9FF;
+			remoteInfo = VFSwitchDemo;
+		};
+		8879675519504174009DF9FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8879674E19504173009DF9FF /* VFSwitchDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8879673E19504173009DF9FF;
+			remoteInfo = VFSwitchDemoTests;
+		};
 		889F88171950402D0006796C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 889F88011950402D0006796C /* Project object */;
@@ -24,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8879674E19504173009DF9FF /* VFSwitchDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VFSwitchDemo.xcodeproj; path = VFSwitchDemo/VFSwitchDemo.xcodeproj; sourceTree = "<group>"; };
 		889F880A1950402D0006796C /* VFSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VFSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		889F880E1950402D0006796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889F880F1950402D0006796C /* VFSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFSwitch.h; sourceTree = "<group>"; };
@@ -52,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8879674F19504173009DF9FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8879675419504174009DF9FF /* VFSwitchDemo.app */,
+				8879675619504174009DF9FF /* VFSwitchDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		889F88001950402D0006796C = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +117,7 @@
 			children = (
 				889F881C1950402D0006796C /* VFSwitchTests.swift */,
 				889F881A1950402D0006796C /* Supporting Files */,
+				8879674E19504173009DF9FF /* VFSwitchDemo.xcodeproj */,
 			);
 			path = VFSwitchTests;
 			sourceTree = "<group>";
@@ -183,6 +208,12 @@
 			mainGroup = 889F88001950402D0006796C;
 			productRefGroup = 889F880B1950402D0006796C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8879674F19504173009DF9FF /* Products */;
+					ProjectRef = 8879674E19504173009DF9FF /* VFSwitchDemo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				889F88091950402D0006796C /* VFSwitch */,
@@ -190,6 +221,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8879675419504174009DF9FF /* VFSwitchDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = VFSwitchDemo.app;
+			remoteRef = 8879675319504174009DF9FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8879675619504174009DF9FF /* VFSwitchDemoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = VFSwitchDemoTests.xctest;
+			remoteRef = 8879675519504174009DF9FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		889F88081950402D0006796C /* Resources */ = {
@@ -407,6 +455,7 @@
 				889F88221950402D0006796C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		889F88231950402D0006796C /* Build configuration list for PBXNativeTarget "VFSwitchTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +464,7 @@
 				889F88251950402D0006796C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
